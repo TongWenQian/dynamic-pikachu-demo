@@ -1,4 +1,4 @@
-! function () {
+!function () {
     var duration = 50;
     $('.actions').on('click','button',function(e){
         let $button = $(e.currentTarget)
