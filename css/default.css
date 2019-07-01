@@ -38,14 +38,14 @@ body {
     position: absolute;
     right: 0;
     top: 0;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
 }
 .actions > button {
     margin: 10px;
-    background: rgba(221, 221, 221, 0.632);
+    background: #ddd;
     padding: 8px 10px;
+    border: none;
 }
 .actions > button.active{
     box-shadow: 1px 1px 1px rgba(0,0,0,0.8);
